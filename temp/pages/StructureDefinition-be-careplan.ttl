@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "BECarePlan"];
   fhir:StructureDefinition.title [ fhir:value "BE Care Plan"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-03-26T12:40:14+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-03-26T12:48:26+01:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Defines constraints and extensions on the patient resource for \nthe minimal set of data to query and retrieve patient demographic information."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

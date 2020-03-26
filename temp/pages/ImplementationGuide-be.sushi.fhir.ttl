@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "besushifhir"];
   fhir:ImplementationGuide.title [ fhir:value "be.sushi.fhir"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2020-03-26T12:40:14+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2020-03-26T12:48:26+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.packageId [ fhir:value "be.sushi.fhir"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
