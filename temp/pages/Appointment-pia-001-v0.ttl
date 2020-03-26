@@ -1,0 +1,70 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/Appointment/pia-001-v0> a fhir:Appointment;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pia-001-v0"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: pia-001-v0</p><p><b>status</b>: proposed</p><p><b>serviceCategory</b>: 7 <span style=\"background: LightGoldenRodYellow\">(Details : {[not stated] code '7' = '7)</span></p><p><b>serviceType</b>: 59 <span style=\"background: LightGoldenRodYellow\">(Details : {[not stated] code '59' = '59)</span></p><p><b>description</b>: 1st appointment to plan diabetes care.</p><blockquote><p><b>participant</b></p><p><b>type</b>: PAT <span style=\"background: LightGoldenRodYellow\">(Details : {[not stated] code 'PAT' = 'PAT)</span></p><p><b>required</b>: required</p><p><b>status</b>: needs-action</p></blockquote><blockquote><p><b>participant</b></p><p><b>type</b>: PPRF <span style=\"background: LightGoldenRodYellow\">(Details : {[not stated] code 'PPRF' = 'PPRF)</span></p><p><b>actor</b>: <a href=\"PractitionerRole/nurse\">PractitionerRole/nurse</a></p><p><b>required</b>: required</p><p><b>status</b>: needs-action</p></blockquote><p><b>requestedPeriod</b>: 12-Nov-2019 00:00:00 --&gt; 15-Nov-2019 00:00:00</p></div>"
+  ];
+  fhir:Appointment.status [ fhir:value "proposed"];
+  fhir:Appointment.serviceCategory [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.code [ fhir:value "7" ]
+     ]
+  ];
+  fhir:Appointment.serviceType [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.code [ fhir:value "59" ]
+     ]
+  ];
+  fhir:Appointment.description [ fhir:value "1st appointment to plan diabetes care."];
+  fhir:Appointment.participant [
+     fhir:index 0;
+     fhir:Appointment.participant.type [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.code [ fhir:value "PAT" ]
+       ]
+     ];
+     fhir:Appointment.participant.required [ fhir:value "required" ];
+     fhir:Appointment.participant.status [ fhir:value "needs-action" ]
+  ], [
+     fhir:index 1;
+     fhir:Appointment.participant.type [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.code [ fhir:value "PPRF" ]
+       ]
+     ];
+     fhir:Appointment.participant.actor [
+       fhir:link <https://www.ehealth.fgov.be/standards/fhir/PractitionerRole/nurse>;
+       fhir:Reference.reference [ fhir:value "PractitionerRole/nurse" ]
+     ];
+     fhir:Appointment.participant.required [ fhir:value "required" ];
+     fhir:Appointment.participant.status [ fhir:value "needs-action" ]
+  ];
+  fhir:Appointment.requestedPeriod [
+     fhir:index 0;
+     fhir:Period.start [ fhir:value "2019-11-12"^^xsd:date ];
+     fhir:Period.end [ fhir:value "2019-11-15"^^xsd:date ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/Appointment/pia-001-v0.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

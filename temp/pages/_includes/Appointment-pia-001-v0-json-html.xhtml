@@ -1,0 +1,67 @@
+{% raw %}<pre class="json">
+{
+  "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment">resourceType</a>" : "Appointment",
+  "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.id">id</a>" : "pia-001-v0",
+  "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: pia-001-v0&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: proposed&lt;/p&gt;&lt;p&gt;&lt;b&gt;serviceCategory&lt;/b&gt;: 7 &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {[not stated] code '7' = '7)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;serviceType&lt;/b&gt;: 59 &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {[not stated] code '59' = '59)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;description&lt;/b&gt;: 1st appointment to plan diabetes care.&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;participant&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: PAT &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {[not stated] code 'PAT' = 'PAT)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;required&lt;/b&gt;: required&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: needs-action&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;participant&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: PPRF &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {[not stated] code 'PPRF' = 'PPRF)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;actor&lt;/b&gt;: &lt;a href=\&quot;PractitionerRole/nurse\&quot;&gt;PractitionerRole/nurse&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;required&lt;/b&gt;: required&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: needs-action&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;requestedPeriod&lt;/b&gt;: 12-Nov-2019 00:00:00 --&amp;gt; 15-Nov-2019 00:00:00&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.status">status</a>" : "proposed",
+  "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.serviceCategory">serviceCategory</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "7"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.serviceType">serviceType</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "59"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.description">description</a>" : "1st appointment to plan diabetes care.",
+  "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant">participant</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant.type">type</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "PAT"
+            }
+          ]
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant.required">required</a>" : "required",
+      "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant.status">status</a>" : "needs-action"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant.type">type</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "PPRF"
+            }
+          ]
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant.actor">actor</a>" : {
+        "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "PractitionerRole/nurse"
+      },
+      "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant.required">required</a>" : "required",
+      "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant.status">status</a>" : "needs-action"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/appointment.html#Appointment.requestedPeriod">requestedPeriod</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">start</a>" : "2019-11-12",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.end">end</a>" : "2019-11-15"
+    }
+  ]
+}</pre>
+{% endraw %}

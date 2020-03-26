@@ -1,0 +1,8 @@
+{
+  "name": "be.sushi.fhir",
+  "version": "0.1.0",
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1"
+  },
+  "license": "CC0-1.0"
+}

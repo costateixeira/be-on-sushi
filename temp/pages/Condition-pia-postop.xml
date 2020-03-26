@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="pia-postop"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: pia-postop</p><p><b>code</b>: Post-op recovery... <span style="background: LightGoldenRodYellow">(Details : {[not stated] code 'xxxxxxxxxx' = 'xxxxxxxxxx)</span></p><p><b>subject</b>: <a href="{{[type]}}-{{[id]}}.html">Pia. Generated Summary: id: pia; 640303-522.53; Pia AnyWoman ; gender: female</a></p></div>
+  </text>
+  <code>
+    <coding>
+      <code value="xxxxxxxxxx"/>
+    </coding>
+    <text value="Post-op recovery..."/>
+  </code>
+  <subject>
+    <reference value="Patient/pia"/>
+    <display value="Pia"/>
+  </subject>
+</Condition>

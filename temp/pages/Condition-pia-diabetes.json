@@ -1,0 +1,20 @@
+{
+  "resourceType": "Condition",
+  "id": "pia-diabetes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: pia-diabetes</p><p><b>code</b>: Diabetes <span style=\"background: LightGoldenRodYellow\">(Details : {[not stated] code 'xxxxxxxxxx' = 'xxxxxxxxxx)</span></p><p><b>subject</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Pia. Generated Summary: id: pia; 640303-522.53; Pia AnyWoman ; gender: female</a></p></div>"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "xxxxxxxxxx"
+      }
+    ],
+    "text": "Diabetes"
+  },
+  "subject": {
+    "reference": "Patient/pia",
+    "display": "Pia"
+  }
+}

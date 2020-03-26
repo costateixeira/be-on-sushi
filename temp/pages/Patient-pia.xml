@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="pia"/>
+  <meta>
+    <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: pia</p><p><b>meta</b>: </p><p><b>identifier</b>: 640303-522.53</p><p><b>name</b>: Pia AnyWoman </p><p><b>gender</b>: female</p></div>
+  </text>
+  <identifier>
+    <system value="https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin"/>
+    <value value="640303-522.53"/>
+  </identifier>
+  <name>
+    <family value="AnyWoman"/>
+    <given value="Pia"/>
+  </name>
+  <gender value="female"/>
+</Patient>

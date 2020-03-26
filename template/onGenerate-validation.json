@@ -1,0 +1,13 @@
+{"resourceType":"OperationOutcome","issue":[
+      
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Patient/pia.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[3]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Condition/pia-depression.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[5]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Condition/pia-diabetes.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[6]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Condition/pia-loneliness.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[7]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Condition/pia-postop.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[8]"]}
+,]}
+      

@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "pia",
+  "meta": {
+    "profile": [
+      "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: pia</p><p><b>meta</b>: </p><p><b>identifier</b>: 640303-522.53</p><p><b>name</b>: Pia AnyWoman </p><p><b>gender</b>: female</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin",
+      "value": "640303-522.53"
+    }
+  ],
+  "name": [
+    {
+      "family": "AnyWoman",
+      "given": [
+        "Pia"
+      ]
+    }
+  ],
+  "gender": "female"
+}
