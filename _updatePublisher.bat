@@ -77,6 +77,7 @@ SETLOCAL DisableDelayedExpansion
 POWERSHELL -command if ('System.Net.WebClient' -as [type]) {(new-object System.Net.WebClient).DownloadFile(\"%updatebaturl%\",\"_updatePublisher.new.bat\") } else { Invoke-WebRequest -Uri "%updatebaturl%" -Outfile "_updatePublisher.new.bat" }
 POWERSHELL -command if ('System.Net.WebClient' -as [type]) {(new-object System.Net.WebClient).DownloadFile(\"%genbaturl%\",\"_genonce.bat\") } else { Invoke-WebRequest -Uri "%genbaturl%" -Outfile "_genonce.bat" }
 
+ECHO Updating this file...
 start copy /y "_updatePublisher.new.bat" "_updatePublisher.bat" ^&^& del "_updatePublisher.new.bat" ^&^& exit
 
 PAUSE
