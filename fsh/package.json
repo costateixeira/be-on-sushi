@@ -1,27 +1,14 @@
 {
- "name": "fish",
+ "name": "be-fhir",
  "version" : "0.1.0",  
- "canonical" : "http://example.org/fhir/fish",
- "url" : "http://example.org/fhir/fish",
- "title" : "Fish Implementation Guide",
+ "canonical" : "https://www.ehealth.fgov.be/standards/fhir",
+ "url" : "https://www.ehealth.fgov.be/standards/fhir",
+ "title" : "Implementation Guide",
  "description": "An example of how FSH can be used to create an IG about fish",
  "dependencies": {
-    "hl7.fhir.r4.core": "4.0.1",
-    "hl7.fhir.us.core": "3.1.0"
+    "hl7.fhir.r4.core": "4.0.1"
  },
- "keywords": [
-   "FSH",
-   "Actual fish", 
-   "SUSHI",
-   "Veterinary Care"
- ],
  "language": "en",
- "author": "James Tuna",
- "maintainers": [
-   {
-     "name": "Bill Cod",
-     "email": "cod@reef.gov"
-   }
- ],
+ "author": "HL7 Belgium",
  "license": "CC0-1.0"
 }
